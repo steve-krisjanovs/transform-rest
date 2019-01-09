@@ -1,0 +1,28 @@
+{
+  "name": "transform-rest",
+  "version": "1.0.0",
+  "description": "REST interface dynamic templating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Krisjanovs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "cookie-parser": "^1.4.3",
+    "body-parser": "^1.18.3",
+    "jsonminify": "^0.4.1",
+    "base64-async": "^2.1.3",
+    "linq": "^3.1.0",
+    "express-xml-domparser": "^0.0.3",
+    "xmldom": "^0.1.27",
+    "xpath": "^0.0.27",
+    "ejs": "^2.6.1",
+    "handlebars": "^4.0.12",
+    "mustache": "^3.0.0",
+    "vash": "^0.12.4",
+    "pug": "^2.0.3"
+  }
+}
