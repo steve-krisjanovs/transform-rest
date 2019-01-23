@@ -7,9 +7,9 @@ default port is HTTP 3000. You can override this via EXPRESS_PORT env var.
 # Usage
 
 HTTP POST /api/engine/:engine/transform  
-:engine allowable values: mustache|pug|vash|ejs|handlebars
-request headers: Content-Type = text/xml  
-request body:  
+* :engine allowable values: mustache|pug|vash|ejs|handlebars
+* request headers: Content-Type = text/xml  
+* request body:  
 ```xml
 <transform>
     <template>
@@ -28,8 +28,8 @@ request body:
 # Example
 
 HTTP POST http://localhost:3000/api/engine/vash/transform  
-request headers: Content-Type = text/xml  
-request body:  
+* request headers: Content-Type = text/xml  
+* request body:  
 
 ```xml
 <transform>
