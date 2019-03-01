@@ -4,6 +4,8 @@ I wrote this to fill a need where some software systems don't have an easy means
 
 default port is HTTP 3000. You can override this via EXPRESS_PORT env var. 
 
+NOTE - since the various packages in this app utilize https://www.npmjs.com/package/libxmljs , you will need to set up node-gyp and the toolchains for it. The docker container verision of this app handles this internally. See: https://github.com/nodejs/node-gyp
+
 # Usage
 
 HTTP POST /api/engine/:engine/transform  
